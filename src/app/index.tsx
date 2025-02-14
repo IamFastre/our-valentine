@@ -41,6 +41,12 @@ export default function App() {
           <br/>
           <strong>Hizia</strong>, you're my love forever and I hope we get there sooner than later, can't wait for us to
           share the same house, same bed, same sleep schedule ('cause fuck!), and–of course–same last name.
+          <br/>
+          I'm so thankful for you by my side, you're an incredible human being – actually you're a goddess, you make my
+          whole life much better. You're the part of my day I yearn for, you always send chills down my chest; warm chills,
+          if that makes any sense. You're my comfort is what I'm trying to get across.
+          <br/>
+          Again, <strong>Hizia</strong>, I love you so much.
         </p>
         <div className={`${styles.swirl} ${styles.other}`} />
       </section>
