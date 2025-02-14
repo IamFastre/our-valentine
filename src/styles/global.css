@@ -1,8 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&display=swap');
+
 :root {
   --bg-main: #200015;
-  --tx-main: #e690bd;
+  --bg-second: #2b041d;
 
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --tx-main: #e783b7;
+  --tx-second: #701447;
+
+  font-family: "Delius Swash Caps", serif;
 
   user-select: none;
 
@@ -21,12 +27,17 @@ body {
   width: calc(100dvw - var(--m) * 2);
 
   color: var(--tx-main);
-  background-color: var(--bg-main);
+  background: radial-gradient(circle, var(--bg-main) 80%, var(--bg-second) 100%);
+  overflow: hidden;
+
+  align-items: center;
+  justify-content: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
+  font-family: "Borel", serif;
 }
 
 body, div, section, main {
