@@ -1,1 +1,1 @@
-export const base = import.meta.env.PROD ? '/our-valentine' : '';
+export const base = '/our-valentine';
