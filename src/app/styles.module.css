@@ -9,6 +9,17 @@
   height: 500px;
 }
 
+.container h1 {
+  color: transparent;
+  background: linear-gradient(to right, var(--tx-main) 90%, white, var(--tx-main));
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-size: 300% 100%;
+  animation-duration: 3s;
+  animation-timing-function: ease-out;
+  animation-iteration-count: infinite;
+}
+
 .container p {
   line-height: 24px;
   margin: 0 20%;
@@ -41,6 +52,21 @@
 .swirl.other {
   transform: scaleY(-1);
   margin: 50px 0;
+}
+
+.footer {
+  font-size: 12px;
+  flex-direction: row;
+  gap: 0.5ch;
+  margin: 5px 0;
+}
+
+.footer em {
+  color: white;
+}
+
+.footer img {
+  height: 20px;
 }
 
 /* Mobile styles */
@@ -82,3 +108,9 @@
     transform: none;
   }
 }
+
+@keyframes swipe {
+  0% { background-position: 150% 0; }
+  100% { background-position: 0 0; }
+}
+  

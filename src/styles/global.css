@@ -27,7 +27,7 @@ body {
   width: calc(100dvw - var(--m) * 2);
 
   color: var(--tx-main);
-  background: radial-gradient(circle, var(--bg-main) 80%, var(--bg-second) 100%);
+  background: radial-gradient(circle, var(--bg-main) 75%, var(--bg-second) 100%);
   overflow: hidden;
 
   align-items: center;
