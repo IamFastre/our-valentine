@@ -15,6 +15,8 @@ createRoot(document).render(
         {/* =============================== META =============================== */}
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="author" content="IamFastre" />
+        <meta name="description" content="This is the closest that I can get to an actual gift!" />
       </head>
       <body>
         <Root />
