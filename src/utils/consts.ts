@@ -1,0 +1,1 @@
+export const base = import.meta.env.PROD ? '/our-valentine' : '';
