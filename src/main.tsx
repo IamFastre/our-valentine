@@ -1,10 +1,23 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import './index.css'
-import App from './App.tsx'
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
 
-createRoot(document.getElementById('root')!).render(
+import "@/styles/global.css";
+
+import Root from "@/app";
+
+createRoot(document).render(
   <StrictMode>
-    <App />
-  </StrictMode>,
-)
+    <html lang="en">
+      <head>
+        <title>Happy Valentine</title>
+        <link rel="icon" type="image/svg" href="/h.svg" />
+        {/* =============================== META =============================== */}
+        <meta charSet="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      </head>
+      <body>
+        <Root />
+      </body>
+    </html>
+  </StrictMode>
+);
